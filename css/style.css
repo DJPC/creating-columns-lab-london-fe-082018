@@ -16,6 +16,14 @@ body, html {
   margin: 10px auto;
 }
 
+.containerdubious {
+  width: 80%;
+  max-width: 600px;
+  min-width: 400px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
 h4 {
   width: fit-content;
   display: inline-block;
@@ -47,5 +55,24 @@ img:hover {
 }
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+.column {
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both ;
 
 /* create your tile classes! we recommend .small .med .large */
+
+.small {
+  width: 100%;
+}
+
+.med {
+  width: 200%;
+}
+
+.large{
+  width: 100%;
+}
